@@ -4,7 +4,6 @@ Combines **behavioral** e-commerce signals (orders, browsing, funnel) with **con
 (support chats: intent, sentiment) into a unified customer profile, then produces
 **evidence-grounded recommendations** with retrieval (pgvector) and a local LLM (Ollama).
 
-> Status: milestone 1–2 of the MVP: reproducible synthetic data + sanity checks.
 
 ## Why synthetic data, and how it avoids being meaningless
 
