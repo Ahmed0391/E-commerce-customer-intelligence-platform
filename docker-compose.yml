@@ -1,0 +1,12 @@
+# Not used until milestone 6. Included now so the stack is visible.
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: cip
+      POSTGRES_PASSWORD: cip
+      POSTGRES_DB: cip
+    ports: ["5432:5432"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+volumes:
+  pgdata:
